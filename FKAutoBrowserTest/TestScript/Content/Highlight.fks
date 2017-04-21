@@ -1,0 +1,8 @@
+$.browser("localie", "ie")
+$.open("http://10.5.8.88/librarySystem/home.htm")
+$.findbyxpath("/html[1]/body[1]/div[2]")
+$.highlight()
+$.pause(5)
+$.highlight("/html[1]/body[1]/div[1]")
+$.pause(5)
+$.close()

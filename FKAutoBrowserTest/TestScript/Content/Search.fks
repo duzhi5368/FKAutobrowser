@@ -1,0 +1,8 @@
+$.browser("localie","ie")
+$.open("http://10.5.8.88/librarySystem/home.htm")
+$.search("name")
+$.search("[0-9]", "regex")
+$.search("\d{5}", "regex")
+$.search("fuck")
+$.search("\d{10}", "regex")
+$.close()

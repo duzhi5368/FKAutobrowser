@@ -1,0 +1,5 @@
+$.browser("localie","ie")
+$.open("http://10.5.8.88/librarySystem/home.htm")
+$.screenshot("LibrarySystem.jpg")
+$.pause(5)
+$.close()

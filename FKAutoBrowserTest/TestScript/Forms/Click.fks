@@ -1,0 +1,6 @@
+$.browser("localie","ie")
+$.open("http://10.5.8.88/librarySystem/home.htm")
+$.pause(2)
+$.click("/html[1]/body[1]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[4]/td[1]/input[1]")
+$.pause(2)
+$.close()

@@ -1,0 +1,6 @@
+$.browser("localie","ie")
+$.open("http://10.5.8.88/librarySystem/home.htm")
+$.pause(2)
+$.newtab("www.google.com")
+$.pause(2)
+$.close()
