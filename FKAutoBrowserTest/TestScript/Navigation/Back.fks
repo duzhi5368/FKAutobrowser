@@ -1,8 +1,0 @@
-$.browser("localie","ie")
-$.open("http://10.5.8.88/librarySystem/home.htm")
-$.pause(3)
-$.open("https://oa.iv66.net/login/Login.jsp?logintype=1")
-$.pause(3)
-$.back()
-$.pause(3)
-$.close()

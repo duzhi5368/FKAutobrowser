@@ -1,7 +1,0 @@
-$.browser("localie","ie")
-$.open("https://oa.iv66.net/login/Login.jsp?logintype=1")
-$.selecttext("/html[1]/body[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/div[2]/div[2]/div[2]/table[1]/tbody[1]/tr[5]/td[1]/select[1]", "English")
-$.pause(2)
-$.selecttext("/html[1]/body[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/div[2]/div[2]/div[2]/table[1]/tbody[1]/tr[5]/td[1]/select[1]", "简体中文")
-$.pause(2)
-$.close()

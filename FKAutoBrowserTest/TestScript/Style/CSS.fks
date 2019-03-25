@@ -1,6 +1,0 @@
-$.browser("localie","ie")
-$.open("http://10.5.8.88/librarySystem/home.htm")
-$.pause(2)
-$.css("body { color: #F00; }")
-$.pause(3)
-$.close()
